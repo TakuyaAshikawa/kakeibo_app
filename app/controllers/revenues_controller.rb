@@ -1,4 +1,4 @@
-class IncomesController < ApplicationController
+class RevenuesController < ApplicationController
 
 	def index
 	  @revenues = Revenue.order(created_at: :asc)
